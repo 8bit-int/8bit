@@ -5,7 +5,9 @@ https://github.com/8bit-int
 repo:
 https://github.com/8bit-int/8bit
 
-
+**push to a different remote branch
+git push origin local-name:remote-name
+git push origin master:gh-pages
 
 
 homepage blog roll:
