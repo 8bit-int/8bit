@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 8bit. Built with character
-description: We provide our employees with a rewarding career in cyber security while providing top engineering and IT talent to our clients.  We focus on our employees with an emphasis on providing the highest possible compensation for their time while also allowing for flexibility for a healthy work/life balance.
+title: "8bit. Built with character"
+description: "We provide our employees with a rewarding career in cyber security while providing top engineering and IT talent to our clients.  We focus on our employees with an emphasis on providing the highest possible compensation for their time while also allowing for flexibility for a healthy work/life balance."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://8bitint.com" 
 github_repo: jekyll # the GitHub repo name for your project
 github_username: jekyll
 
