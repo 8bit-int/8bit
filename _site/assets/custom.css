@@ -542,6 +542,10 @@ footer.colophon {
       padding-left: 1em;
       border-left: 1px dotted #333333;
       margin-left: 2em; }
+    footer.colophon .container .tagline {
+      margin-top: -.5em;
+      font-size: .85em;
+      color: white; }
     footer.colophon .container img.footer-logo {
       max-width: 120px; }
     footer.colophon .container i {
@@ -566,6 +570,9 @@ footer.colophon {
 .rule {
   max-height: 3px;
   max-width: 90%; }
+
+.monospace {
+  font-family: Courier, sans-serif !important; }
 
 @keyframes fade-in {
   from {
