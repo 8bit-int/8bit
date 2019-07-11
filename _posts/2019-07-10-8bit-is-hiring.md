@@ -4,7 +4,7 @@ title:  "8bit is hiring!"
 date:   2019-07-10
 ---
 
-At 8bit, we're looking for independent workers who are mission-focused. We don't hire for a job, we hire candidates who are the right for a rewarding career in CyberSecurity. 
+At 8bit, we're looking for independent workers who are mission-focused. We don't hire for a job, we hire candidates who are the right fit for a rewarding career in CyberSecurity. 
 
 Our competitive compensation package includes:
   * Low overhead hourly company. Get the most compensation for your time with no vacation accrual
