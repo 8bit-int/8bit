@@ -586,6 +586,14 @@ footer.colophon {
 .fadein {
   animation: fade-in 1s; }
 
+form.contact input, form.contact textarea {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 1em; }
+form.contact button {
+  margin-bottom: 2em; }
+
 @media only screen and (max-width: 768px) {
   footer.colophon .container {
     text-align: center;
