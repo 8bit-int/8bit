@@ -482,9 +482,6 @@ code {
     color: #0f69c9;
     text-decoration: none !important; }
 
-.site-intro {
-  padding-bottom: 4em; }
-
 html {
   background-color: black; }
 
@@ -501,11 +498,17 @@ a.masthead {
   cursor: pointer;
   border: 1px solid red; }
 
-h1.hero-text {
-  margin-bottom: 0; }
+.hero-area {
+  background-color: #0f69c9;
+  color: white; }
+  .hero-area h1.hero-text {
+    margin-bottom: 0;
+    color: black; }
 
-.site-intro h2 {
-  margin-top: 0; }
+.site-intro {
+  padding-bottom: 4em; }
+  .site-intro h2 {
+    margin-top: 0; }
 
 .flex-container {
   display: flex;

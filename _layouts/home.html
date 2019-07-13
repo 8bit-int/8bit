@@ -5,43 +5,31 @@
 
   <body>
 
-    <div>
-
-      <header class="header-background">
-
-
-   <div class="flex-container header-top">
  
-     <img src="images/8bit_logo_reversed_2color.svg" class="logo-header" alt="8bit logo">
-   
-</div>
 
-       
+    <header class="header-background">
+        <div class="flex-container header-top">
+            <img src="images/8bit_logo_reversed_2color.svg" class="logo-header" alt="8bit logo">
+           <!-- {{% include menu.html %}} -->
+        </div>  
+    </header>
 
+      
 
-       
-
-        <div class="container mx-auto px-2 mb-2 clearfix header-text">
-          <h1 class="h0 inline-block sm-width-full py-4 mt-3 header-title hero-text fadein">Secure your future with 8bit.</h1>
-              
-
-
-
-
-
+<div class="hero-area">
 
               <!-- Set site description in config.yml -->
-             
-              
 
               <article class="container site-intro">
+
+                   <h1 class="h0 inline-block sm-width-full py-4 mt-3 header-title hero-text fadein">Secure your future with 8bit.</h1>
+              
 
                    <h2>Rewarding careers in cyber security</h2>
 
                        <p class="h4 lh-condensed font-smoothing mt-2 py-1">At 8bit, satisfied employees create superior work. That's how we provide our customers with world-class service.</p> 
-
-              
-<div class="row">
+  
+              <div class="row">
 
                   <div class="col-md">
                       
@@ -61,27 +49,21 @@
 
                            <img src="images/rule.svg" alt="rule" class="rule">
 
-
                       <p class="lh-condensed font-smoothing mt-2 py-1">8bit focuses on our employees, with an emphasis on providing the highest possible compensation while also allowing for a healthy work/life balance.</p> 
                   </div>
-                   
-                 
                 </div>
-              <!-- </div> -->
 
             </article>
 
-
         </div>
-      </header>
 
-
+<!-- end hero area -->
        
- <div class="container mx-auto px-2 py-4">
-      {% for post in site.posts %}
-          {% include post_block.html %}
-        {% endfor %}
-      </div> 
+
+
+<!-- posts go here -->
+
+
 
     {% include footer.html %}
 

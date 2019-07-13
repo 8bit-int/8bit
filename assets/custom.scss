@@ -9,10 +9,7 @@
 ;
 
 
-.site-intro{
-	// border-top:1px solid #4a8bd0;
-	padding-bottom: 4em;
-}
+
 
 html{
 	background-color: black;
@@ -41,13 +38,32 @@ a.masthead{
 	border:1px solid red;
 }
 
-h1.hero-text{
-	margin-bottom:0;
+
+.hero-area{
+	
+	background-color: $blue;
+	color:white;
+
+	h1.hero-text{
+		margin-bottom:0;
+		// max-width: 32rem;
+		// border:1px solid red;
+		color:black;
+	}
+
 }
 
-.site-intro h2{
-	margin-top:0;
+
+.site-intro{
+	padding-bottom: 4em;
+
+	 h2{
+		margin-top:0;
+	}
+
 }
+
+
 
 .flex-container{
 	display:flex;
