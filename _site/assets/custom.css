@@ -504,6 +504,11 @@ a.masthead {
   .hero-area h1.hero-text {
     margin-bottom: 0;
     color: black; }
+  .hero-area .icon {
+    max-width: 200px;
+    max-height: 200px; }
+  .hero-area .blurb {
+    text-align: center; }
 
 .site-intro {
   padding-bottom: 4em; }
